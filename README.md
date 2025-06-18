@@ -47,19 +47,20 @@
     │ ├── install_guide.md
     │ ├── kali_on_orangepi.md
     │ ├── rf_tools.md
-    │ ├── esp32_setup.md
+    │ ├── arduino_jammer_setup.md
     │ └── automation_scripts/
     │ ├── wifi_sniffer.py
     │ ├── rf_decoder.py
-    │ └── iot_jammer.ino
+    │ └── arduino_jammer.ino
     ├── projects/
     │ ├── wifi_auditing.md
     │ ├── rtl_sdr_airband_monitor.md
-    │ └── esp32_temperature_logger.md
+    │ ├── satellite_weather_tracking.md
+    │ └── arduino_rf_jammer_project.md
     ├── licenses/
     │ └── LICENSE
     └── images/
-    └── the-doom-banner.png
+        └── the-doom-banner.png
 
 ---
 
