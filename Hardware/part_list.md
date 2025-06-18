@@ -1,6 +1,6 @@
 # The-Doom Hardware Parts List
 
-This file lists all the required hardware components used in **The-Doom**, along with their purposes and estimated costs (in ETB). Prices are approximate and may vary based on availability in Ethiopia or through international online retailers.
+This file lists all required hardware components used in The-Doom, along with their purposes and estimated prices (in ETB). Prices are approximate and may vary based on local Ethiopian market or online sources.
 
 ---
 
@@ -8,32 +8,34 @@ This file lists all the required hardware components used in **The-Doom**, along
 
 | Item | Purpose | Est. Price (ETB) |
 |------|---------|------------------|
-| **Orange Pi 5 (8GB)** | Main mini-PC for running Linux, hacking tools, SDR software | 9,000–10,000 |
-| **MicroSD Card (64GB or higher)** | OS installation (Armbian, Kali, etc.) | 800–1,200 |
+| **Orange Pi 5 (8GB)** | Main mini-PC (or recycled old laptop) | 9,000–10,000 |
+| **MicroSD Card (64GB or higher)** | OS installation | 800–1,200 |
 | **Power Supply (5V 3A USB-C)** | Stable power for Orange Pi | 500–800 |
-| **Cooling Fan or Heatsink** | Prevent overheating during long sessions | 200–400 |
+| **Cooling Fan / Heatsink** | Heat management | 200–400 |
 
 ---
 
-## Wireless and SDR Equipment
+## Wireless & SDR Components
 
 | Item | Purpose | Est. Price (ETB) |
 |------|---------|------------------|
-| **Alfa AWUS036ACH Wi-Fi Adapter** | Monitor mode, packet injection | 7,000–9,000 |
-| **RTL-SDR Blog V3 USB Dongle** | Radio signal interception (FM, ADS-B, NOAA, etc.) | 2,000–2,800 |
-| **RTL-SDR Antennas** | Antennas for wideband RF reception and satellite signals | Included / Up to 1,000 |
-| **USB Extension Cable** | To position SDR dongle away from interference | 150–300 |
+| **Alfa AWUS036ACH Wi-Fi Adapter** | Monitor mode & packet injection | 7,000–9,000 |
+| **RTL-SDR Blog V3 USB Dongle** | Software-defined radio reception | 2,000–2,800 |
+| **RTL-SDR Antennas** | RF capture (broadband) | Included / 500–1,000 |
+| **USB Extension Cable** | Reduce RF interference for SDR | 150–300 |
 
 ---
 
-## IoT and Embedded Hardware
+## Hardware Hacking & Jamming Components
 
 | Item | Purpose | Est. Price (ETB) |
 |------|---------|------------------|
-| **ESP32 Dev Board** | Automation, sensor sniffing, jamming, prototyping | 1,500–2,500 |
-| **Breadboard** | Prototyping circuits without soldering | 150–300 |
-| **Jumper Wires (Male–Male, Male–Female)** | Circuit wiring for ESP32 | 100–300 |
-| **Sensors (DHT11, IR, PIR, etc.)** | IoT experiments (temperature, motion, etc.) | 300–700 |
+| **Arduino Nano (or Uno)** | Hardware platform for jamming experiments | 700–1,200 |
+| **nRF24L01+ Module (2.4GHz transceiver)** | RF jamming, signal interference | 400–700 |
+| **ESP8266 Module (ESP-01)** | Wi-Fi deauthentication attacks | 400–800 |
+| **Power Supply Module (3.3V regulator)** | Power for nRF24L01+ and ESP-01 | 300–500 |
+| **Breadboard** | Prototyping without soldering | 150–300 |
+| **Jumper Wires** | Circuit wiring | 100–300 |
 
 ---
 
@@ -41,24 +43,24 @@ This file lists all the required hardware components used in **The-Doom**, along
 
 | Item | Purpose | Est. Price (ETB) |
 |------|---------|------------------|
-| **Portable HDMI Monitor (7–10 inch)** | Mobile field display | 10,000+ |
-| **Power Bank (USB-C, 20,000mAh or higher)** | Field power supply for Orange Pi + peripherals | 3,000–5,000 |
-| **USB Hub (Powered, 4+ Ports)** | Connect multiple USB devices (Wi-Fi, SDR, ESP32) | 1,000–1,500 |
-| **Mini Keyboard + Mouse** | Field input devices | 1,200–2,000 |
-| **Carrying Case / Electronics Box** | Organize and carry all gear | 500–1,500 |
+| **Portable HDMI Monitor (7–10 inch)** | Field display | 10,000+ |
+| **Portable Power Bank (USB-C, 20,000mAh)** | Field power | 3,000–5,000 |
+| **USB Hub (Powered)** | Handle multiple USB devices | 1,000–1,500 |
+| **Mini Keyboard & Mouse** | Field input | 1,200–2,000 |
+| **Carrying Case** | Transport gear | 500–1,500 |
 
 ---
 
-## Total Estimated Budget
+## Total Budget
 
-- **Bare Minimum Build**: ~25,000 ETB
-- **Full Build with Display and Batteries**: ~40,000–45,000 ETB
+- **Basic Setup:** ~25,000 ETB  
+- **Full Setup:** ~40,000–45,000 ETB
 
 ---
 
 ## Notes
 
-- All hardware should be tested and used **only** in environments you **own** or have **explicit permission** to access.
-- You can swap Orange Pi with Raspberry Pi 4 if available, but it usually costs more.
-- Make sure to buy from trusted sellers to avoid low-quality clones (especially SDRs and ESP boards).
+- Always test hardware legally and safely.
+- Low-cost modules offer high educational value for RF experiments.
+- Arduino-based jammers focus on learning radio protocols, not real-world malicious jamming.
 
