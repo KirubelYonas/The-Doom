@@ -53,7 +53,7 @@ This file lists all required hardware components used in The-Doom, along with th
 
 ## Total Budget
 
-- **Basic Setup:** ~25,000 ETB  
+- **Basic Setup:** ~25,000 ETB  (Or even less)
 - **Full Setup:** ~40,000–45,000 ETB
 
 ---
@@ -64,3 +64,54 @@ This file lists all required hardware components used in The-Doom, along with th
 - Low-cost modules offer high educational value for RF experiments.
 - Arduino-based jammers focus on learning radio protocols, not real-world malicious jamming.
 
+---
+
+## Parts (Pictures)
+
+
+### Computer(Stip computer)
+
+![IMG_3202](https://github.com/user-attachments/assets/d4cd89fd-ff78-421b-be4f-f4bd21190256)
+
+### Storage(a HDD from an old computer)
+
+![IMG_3201](https://github.com/user-attachments/assets/becbdb47-2588-4eb4-a805-790ef8212610)
+
+### Arduino Uno
+
+
+
+
+### nRF24L01+ Module (2.4GHz transceiver)
+
+
+
+
+### ESP8266 Module (ESP-01 for WiFi deauth attacks)
+
+
+
+
+### RTL-SDR V3 USB Dongle
+
+
+
+### Wi-Fi Adapters
+
+
+### USB Hub and Adapter Cables
+
+
+
+### Breadboard and Jumper Wires
+
+
+
+### Portable Power Bank (USB-C)
+
+
+
+
+### Optional: Portable Monitor
+
+![IMG_3200](https://github.com/user-attachments/assets/c7bc433b-4dcf-4540-b9da-1d624120a923)
