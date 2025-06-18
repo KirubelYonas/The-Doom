@@ -6,11 +6,14 @@
 
 ## Hardware Components
 
-- Orange Pi 5 (8GB)(Use an old laptop if you have one like mine)
+- Orange Pi 5 (8GB) — or an old laptop (recycled for even lower cost)
 - RTL-SDR V3 USB Dongle
-- ESP32 Dev Board
 - Alfa AWUS036ACH Wi-Fi Adapter
 - MicroSD Card (64GB+)
+- Arduino Nano or Uno (for hardware hacking)
+- nRF24L01+ Module (2.4GHz transceiver)
+- ESP8266 Module (ESP-01 for WiFi deauth attacks)
+- Power Supply (5V/3.3V for microcontrollers)
 - USB Hub and Adapter Cables
 - Breadboard and Jumper Wires
 - Portable Power Bank (USB-C)
